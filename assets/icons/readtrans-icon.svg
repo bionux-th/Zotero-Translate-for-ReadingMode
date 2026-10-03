@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="20" x2="232" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173C62"/>
+      <stop offset="1" stop-color="#0D223A"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#071626" flood-opacity=".28"/>
+    </filter>
+    <marker id="arrow-blue" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0 0L9 4.5L0 9Z" fill="#7AD8E8"/>
+    </marker>
+    <marker id="arrow-mint" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0 0L9 4.5L0 9Z" fill="#B8F1D8"/>
+    </marker>
+  </defs>
+
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+  <rect x="9" y="9" width="238" height="238" rx="51" fill="none" stroke="#6EA7C5" stroke-opacity=".35" stroke-width="2"/>
+
+  <g filter="url(#shadow)">
+    <path d="M55 31c0-7.7 6.3-14 14-14h91l41 41v151c0 7.7-6.3 14-14 14H69c-7.7 0-14-6.3-14-14V31Z" fill="#F7FBFF"/>
+    <path d="M160 17v34c0 7.7 6.3 14 14 14h27" fill="#C9E9F4"/>
+    <path d="M160 17v34c0 7.7 6.3 14 14 14h27" fill="none" stroke="#9BC7D8" stroke-width="2"/>
+    <path d="M79 87h75M79 108h95M79 129h67" stroke="#63849B" stroke-linecap="round" stroke-width="7" opacity=".7"/>
+  </g>
+
+  <path d="M64 151c24-18 54-20 80-9 11 5 22 4 31-2" fill="none" stroke="#7AD8E8" stroke-linecap="round" stroke-width="7" marker-end="url(#arrow-blue)"/>
+  <path d="M193 205c-25 18-55 19-80 8-11-5-22-4-31 2" fill="none" stroke="#B8F1D8" stroke-linecap="round" stroke-width="7" marker-end="url(#arrow-mint)"/>
+
+  <circle cx="65" cy="178" r="35" fill="#2C91B5" stroke="#D9F8FF" stroke-opacity=".9" stroke-width="3"/>
+  <circle cx="191" cy="178" r="35" fill="#42B99A" stroke="#E2FFF1" stroke-opacity=".9" stroke-width="3"/>
+  <text x="65" y="191" text-anchor="middle" fill="#FFF" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="48" font-weight="700">A</text>
+  <text x="191" y="191" text-anchor="middle" fill="#FFF" font-family="Noto Sans CJK SC, Noto Sans, sans-serif" font-size="42" font-weight="700">文</text>
+</svg>

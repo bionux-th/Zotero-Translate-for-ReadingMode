@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Translate for ReadingMode",
+  "version": "1.0.0",
+  "description": "Translate Zotero PDF reading mode with local and online translation services",
+  "author": "Translate for ReadingMode",
+  "homepage_url": "https://github.com/bionux-th/Zotero-Translate-for-ReadingMode",
+  "icons": {
+    "48": "content/icons/icon-48.png",
+    "96": "content/icons/icon-96.png"
+  },
+  "applications": {
+    "zotero": {
+      "id": "zotero-readtrans@github.com",
+      "strict_min_version": "9.999",
+      "strict_max_version": "10.*"
+    }
+  }
+}
