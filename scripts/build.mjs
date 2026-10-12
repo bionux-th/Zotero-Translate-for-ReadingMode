@@ -34,6 +34,7 @@ await build({
 });
 await cp(path.join(root, "bootstrap.js"), path.join(dist, "bootstrap.js"));
 await cp(path.join(root, "manifest.json"), path.join(dist, "manifest.json"));
+await cp(path.join(root, "update.json"), path.join(dist, "update.json"));
 await cp(path.join(root, "preferences.xhtml"), path.join(dist, "content", "preferences.xhtml"));
 await cp(path.join(root, "assets", "icons", "icon-48.png"), path.join(dist, "content", "icons", "icon-48.png"));
 await cp(path.join(root, "assets", "icons", "icon-96.png"), path.join(dist, "content", "icons", "icon-96.png"));

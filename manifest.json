@@ -12,6 +12,7 @@
   "applications": {
     "zotero": {
       "id": "zotero-readtrans@github.com",
+      "update_url": "https://raw.githubusercontent.com/bionux-th/Zotero-Translate-for-ReadingMode/main/update.json",
       "strict_min_version": "9.999",
       "strict_max_version": "10.*"
     }
