@@ -16,7 +16,7 @@ npm run typecheck
 npm run build
 ```
 
-The build produces `translate-for-readingmode-1.0.0.xpi`. Install that file from Zotero's
+The build produces `translate-for-readingmode-1.1.0.xpi`. Install that file from Zotero's
 **Tools → Add-ons** page and restart Zotero. The source PDF remains untouched.
 
 ## Use

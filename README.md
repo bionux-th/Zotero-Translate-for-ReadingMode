@@ -63,6 +63,6 @@ npm run typecheck
 npm run build
 ```
 
-构建会在项目根目录生成 `translate-for-readingmode-1.0.0.xpi`。在 Zotero“工具 → 插件”中选择该文件并重启 Zotero 完成安装。
+构建会在项目根目录生成 `translate-for-readingmode-1.1.0.xpi`。在 Zotero“工具 → 插件”中选择该文件并重启 Zotero 完成安装。
 
 当前开发环境已检查 Zotero 10.0.3 阅读模式的 `#sdt-content` 结构，并确认本机 Ollama `qwen3:14b` 接口可返回所需 JSON。实际阅读器交互仍需在 Zotero 窗口中使用测试 PDF 验收。

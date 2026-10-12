@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Translate for ReadingMode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Translate Zotero PDF reading mode with local and online translation services",
   "author": "Translate for ReadingMode",
   "homepage_url": "https://github.com/bionux-th/Zotero-Translate-for-ReadingMode",
